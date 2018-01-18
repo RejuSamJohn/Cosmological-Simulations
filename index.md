@@ -19,6 +19,14 @@ For installing `yt`, please use the `install_script.sh` included in this git rep
 Download here 
 [install_script.sh](https://simulationasi2018.github.io/Cosmological-Simulations/install_script.sh)
 
+```Carefully read the instructions the script prints to your terminal since there might be special instructions for your operating system.
+
+Once you've downloaded it, just run:
+$ bash install_script.sh
+$ export PATH=/path/to/YT_DEST/bin:$PATH
+
+where YT_DEST will be the folder created by the install script containing a yt installation (usually yt-conda).```
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
