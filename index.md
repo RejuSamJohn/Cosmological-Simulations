@@ -15,7 +15,9 @@ The following packages / programs need to be installed on your laptop to be able
 - yt (3.4.0)
 
 For installing `yt`, please use the `install_script.sh` included in this git repository.
-[install_script.sh](Cosmological-Simulations/install_script.sh)
+
+Download here 
+[install_script.sh](https://simulationasi2018.github.io/Cosmological-Simulations/install_script.sh)
 
 ### Markdown
 
