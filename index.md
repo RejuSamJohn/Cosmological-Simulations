@@ -1,6 +1,6 @@
 ## Setting Up Your Computer
 
-The following packages / programs need to be installed on your laptop to be able to carry out the lab work assigned during the workshop. Please note that it is the participants' responsibility to install these on your respective systems.
+The following packages / programs need to be installed on your laptop to be able to carry out the lab work assigned during the workshop. Please note that it is the participants' responsibility to install these on your respective systems. You are strongly encouraged to use Linux based operating systems.
 
 - Python (>3.4) (but not Python 2.X versions)
 - openssl-devel
