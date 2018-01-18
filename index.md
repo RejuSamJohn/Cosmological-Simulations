@@ -28,6 +28,22 @@ $ export PATH=/path/to/YT_DEST/bin:$PATH
 where YT_DEST will be the folder created by the install script containing a yt installation (usually yt-conda).
 ```
 
+now append your ~/.bashrc with 
+
+`export PATH=/path/to/YT_DEST/bin:$PATH` 
+
+`export LD_LIBRARY_PATH=path/to/YT_DEST/lib:$LD_LIBRARY_PATH`
+
+for example, if you installed `yt` to `/home/john/software/yt_3_4/`, the above lines will change to:
+
+``` export PATH=/home/john/software/yt_3_4/yt-conda/bin:$PATH 
+export LD_LIBRARY_PATH=/home/john/software/yt_3_4/yt-conda/lib:$LD_LIBRARY_PATH
+``` 
+Last but not least, don't forget to source your `bashrc`:
+```source ~/.bashrc
+```  
+
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
