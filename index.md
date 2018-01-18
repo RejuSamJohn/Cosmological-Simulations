@@ -25,7 +25,8 @@ Once you've downloaded it, just run:
 $ bash install_script.sh
 $ export PATH=/path/to/YT_DEST/bin:$PATH
 
-where YT_DEST will be the folder created by the install script containing a yt installation (usually yt-conda).```
+where YT_DEST will be the folder created by the install script containing a yt installation (usually yt-conda).
+```
 
 ### Markdown
 
