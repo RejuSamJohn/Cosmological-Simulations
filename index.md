@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## Setting Up Your Computer
 
-You can use the [editor on GitHub](https://github.com/simulationASI2018/Cosmological-Simulations/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The following packages / programs need to be installed on your laptop to be able to carry out the lab work assigned during the workshop. Please note that it is the participants' responsibility to install these on your respective systems. 
 
 ### Markdown
 
