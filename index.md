@@ -36,14 +36,13 @@ now append your ~/.bashrc with:
 
 for example, if you installed `yt` to `/home/john/software/yt_3_4/`, the above lines will change to:
 
-``` export PATH=/home/john/software/yt_3_4/yt-conda/bin:$PATH 
+`export PATH=/home/john/software/yt_3_4/yt-conda/bin:$PATH` 
 
-export LD_LIBRARY_PATH=/home/john/software/yt_3_4/yt-conda/lib:$LD_LIBRARY_PATH
-``` 
+`export LD_LIBRARY_PATH=/home/john/software/yt_3_4/yt-conda/lib:$LD_LIBRARY_PATH`
+
 Last but not least, don't forget to source your `bashrc`:
 
-```source ~/.bashrc
-```  
+`source ~/.bashrc`
 
 
 ### Markdown
