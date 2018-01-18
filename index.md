@@ -1,6 +1,16 @@
 ## Setting Up Your Computer
 
-The following packages / programs need to be installed on your laptop to be able to carry out the lab work assigned during the workshop. Please note that it is the participants' responsibility to install these on your respective systems. 
+The following packages / programs need to be installed on your laptop to be able to carry out the lab work assigned during the workshop. Please note that it is the participants' responsibility to install these on your respective systems.
+-Python (>3.5) (but not Python 2.X versions)
+- openssl-devel
+- uuid-devel
+- readline-devel
+- ncurses-devel
+- zip
+- gcc-{,c++,gfortran}
+- make
+- patch
+- git
 
 ### Markdown
 
