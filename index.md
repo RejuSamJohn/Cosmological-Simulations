@@ -84,7 +84,8 @@ assuming that the installation path of `yt` is `/home/john/software/yt_3_4/` as 
 4. `$ source yt-x86_64/bin/activate`
 
 _Notice how your prompt is now prefixed with the name of your environment (`yt-x86_64`, in our case). This is the indicator that `yt-x86_64` is currently active, which means the python executable will only use this environment’s packages and settings._
-`(yt-x86_64) $ which python`, Now you can  be sure that which python is active
+
+- `(yt-x86_64) $ which python`, Now you can  be sure that which python is active
 
 - When done with the environment, we need to go back to the system context by executing deactivate:
 
