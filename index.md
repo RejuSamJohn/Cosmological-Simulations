@@ -80,11 +80,13 @@ assuming that the installation path of `yt` is ` /home/john/software/yt_3_4/` as
 2. `$ cd yt_project`
 3. `$ pythonYT -m venv yt-x86_64/`
 4. `$ source yt-x86_64/bin/activate`
+
 _Notice how your prompt is now prefixed with the name of your environment (`yt-x86_64`, in our case). This is the indicator that `yt-x86_64` is currently active, which means the python executable will only use this environment’s packages and settings._
 `(yt-x86_64) $ which python`, Now you can  be sure that which python is active
 
 - When done with the environment, we need to go back to the system  context by executing deactivate:
 `(yt-x86_64) $ deactivate`
+
 Now your shell session is back to normal, and the `python` command refers to the global Python install. Remember to do this whenever you’re done using a specific virtual environment. 
 
 - If you want to do something in this project later, just go to the project directory (`cd`), and activate the virtual environment again:
