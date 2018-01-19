@@ -61,15 +61,25 @@ The great thing about this is that there are no limits to the number of environm
 
 ### How to make virtual environments of `YT`
 
-1) Make an alias (An alias is a way to make a complicated command or set of commands simple) in `~/.bashrc` for the fresh installation of python and pip via `yt`. 
+1. Make an alias (An alias is a way to make a complicated command or set of commands simple) in `~/.bashrc` for the fresh installation of python and pip via `yt`. 
 
 **Syntax:**
 
-```alias pythonYT='/home/john/software/yt_3_4/yt-conda/bin/python3.6'
+`alias pythonYT='/home/john/software/yt_3_4/yt-conda/bin/python3.6'`
 
-alias pipYT='/home/john/software/yt_3_4/yt-conda/bin/pip'
-```
+`alias pipYT='/home/john/software/yt_3_4/yt-conda/bin/pip'`
 
-assuming that the installation path is ` /home/john/software/yt_3_4/` as discussed above. 
+
+assuming that the installation path of `yt` is ` /home/john/software/yt_3_4/` as discussed above. 
 
 - Open your `~/.bashrc` with your favourite text editor and append the `~/.bashrc` with above two lines. 
+
+2. Now, for fresh project with `yt`
+
+- `$ mkdir yt_project`
+- `$ cd yt_project`
+- `$ pythonYT -m venv yt-x86_64/`
+- `$ source yt-x86_64/bin/activate`
+Notice how your prompt is now prefixed with the name of your environment (`yt-x86_64`, in our case). This is the indicator that `yt-x86_64` is currently active, which means the python executable will only use this environment’s packages and settings.
+- `$ which python`
+
