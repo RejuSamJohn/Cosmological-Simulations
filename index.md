@@ -47,7 +47,7 @@ Last but not least, don't forget to source your `bashrc`:
 
 ## Important!
 
-The above steps will make the current installation of python and dependent package versions as your default python. This may lead package version conflict with your ongoing projects. So we recommend you to use the virtual environment of the `YT` for the lab section. 
+The above steps will make the current installation of python and dependent package versions as your default python. This may lead package version conflict with your ongoing projects. **_So we recommend you to use the virtual environment of the `YT` for the lab section._** 
 
 ### What is a virtual environment?
 
