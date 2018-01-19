@@ -43,7 +43,7 @@ for example, if you installed `yt` to `/home/john/software/yt_3_4/`, the above l
 
 Last but not least, don't forget to source your `bashrc`:
 
-`source ~/.bashrc`
+`$ source ~/.bashrc`
 
 ## Important!
 
@@ -73,6 +73,8 @@ The great thing about this is that there are no limits to the number of environm
 assuming that the installation path of `yt` is `/home/john/software/yt_3_4/` as discussed above. 
 
 - Open your `~/.bashrc` with your favourite text editor and append the `~/.bashrc` with above two lines. 
+
+- `$ source ~/.bashrc`
 
 - Now, for fresh project with `yt`
 
