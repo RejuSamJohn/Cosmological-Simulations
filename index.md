@@ -61,3 +61,15 @@ The great thing about this is that there are no limits to the number of environm
 
 ### How to make virtual environments of `YT`
 
+1) Make an alias (An alias is a way to make a complicated command or set of commands simple) in `~/.bashrc` for the fresh installation of python and pip via `yt`. 
+
+**Syntax:**
+
+```alias pythonYT='/home/john/software/yt_3_4/yt-conda/bin/python3.6'
+
+alias pipYT='/home/john/software/yt_3_4/yt-conda/bin/pip'
+```
+
+assuming that the installation path is ` /home/john/software/yt_3_4/` as discussed above. 
+
+- Open your `~/.bashrc` with your favourite text editor and append the `~/.bashrc` with above two lines. 
