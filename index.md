@@ -61,7 +61,7 @@ The great thing about this is that there are no limits to the number of environm
 
 ### How to make virtual environments of `YT`
 
-- Make an alias (An alias is a way to make a complicated command or set of commands simple) in `~/.bashrc` for the fresh installation of python and pip via `yt`. 
+- Make an alias (An alias is a way to make a complicated command or set of commands simple) in `~/.bashrc` for the fresh installation of `python` and `pip`. 
 
 **Syntax:**
 
