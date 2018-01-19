@@ -61,7 +61,7 @@ The great thing about this is that there are no limits to the number of environm
 
 ### How to make virtual environments of `YT`
 
-1. Make an alias (An alias is a way to make a complicated command or set of commands simple) in `~/.bashrc` for the fresh installation of python and pip via `yt`. 
+- Make an alias (An alias is a way to make a complicated command or set of commands simple) in `~/.bashrc` for the fresh installation of python and pip via `yt`. 
 
 **Syntax:**
 
@@ -74,12 +74,16 @@ assuming that the installation path of `yt` is ` /home/john/software/yt_3_4/` as
 
 - Open your `~/.bashrc` with your favourite text editor and append the `~/.bashrc` with above two lines. 
 
-2. Now, for fresh project with `yt`
+- Now, for fresh project with `yt`
 
-- `$ mkdir yt_project`
-- `$ cd yt_project`
-- `$ pythonYT -m venv yt-x86_64/`
-- `$ source yt-x86_64/bin/activate`
-Notice how your prompt is now prefixed with the name of your environment (`yt-x86_64`, in our case). This is the indicator that `yt-x86_64` is currently active, which means the python executable will only use this environment’s packages and settings.
-- `$ which python`
+1. `$ mkdir yt_project`
+2. `$ cd yt_project`
+3. `$ pythonYT -m venv yt-x86_64/`
+4. `$ source yt-x86_64/bin/activate`
+_Notice how your prompt is now prefixed with the name of your environment (`yt-x86_64`, in our case). This is the indicator that `yt-x86_64` is currently active, which means the python executable will only use this environment’s packages and settings._
+`(yt-x86_64) $ which python`, Now you can  be sure that which python is active
+
+- When done with the environment, we need to go back to the system  context by executing deactivate:
+`(yt-x86_64) $ deactivate`
+Now your shell session is back to normal, and the `python` command refers to the global Python install. Remember to do this whenever you’re done using a specific virtual environment. 
 
