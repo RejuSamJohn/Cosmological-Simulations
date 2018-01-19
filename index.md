@@ -70,7 +70,7 @@ The great thing about this is that there are no limits to the number of environm
 `alias pipYT='/home/john/software/yt_3_4/yt-conda/bin/pip'`
 
 
-assuming that the installation path of `yt` is ` /home/john/software/yt_3_4/` as discussed above. 
+assuming that the installation path of `yt` is `/home/john/software/yt_3_4/` as discussed above. 
 
 - Open your `~/.bashrc` with your favourite text editor and append the `~/.bashrc` with above two lines. 
 
