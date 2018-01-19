@@ -87,3 +87,7 @@ _Notice how your prompt is now prefixed with the name of your environment (`yt-x
 `(yt-x86_64) $ deactivate`
 Now your shell session is back to normal, and the `python` command refers to the global Python install. Remember to do this whenever you’re done using a specific virtual environment. 
 
+- If you want to do something in this project later, just go to the project directory (`cd`), and activate the virtual environment again:
+`$ source yt-x86_64/bin/activate`
+
+
