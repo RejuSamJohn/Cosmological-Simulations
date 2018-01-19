@@ -1,4 +1,4 @@
-## Setting Up Your Computer
+# Setting Up Your Computer
 
 The following packages / programs need to be installed on your laptop to be able to carry out the lab work assigned during the workshop. Please note that it is the participants' responsibility to install these on your respective systems. You are strongly encouraged to use Linux based operating systems.
 
@@ -48,3 +48,16 @@ Last but not least, don't forget to source your `bashrc`:
 ## Important!
 
 The above steps will make the current installation of python and dependent package versions as your default python. This may lead package version conflict with your ongoing projects. So we recommend you to use the virtual environment of the `YT` for the lab section. 
+
+### What is a virtual environment?
+
+At its core, the main purpose of Python virtual environments is to create an isolated environment for Python projects. This means that each project can have its own dependencies, regardless of what dependencies every other project has.
+
+Consider the following scenario where you have two projects - ProjectA and ProjectB, both of which have a dependency on the same library, ProjectC. The problem becomes apparent when we start requiring different versions of ProjectC. Maybe ProjectA needs v1.0.0, while ProjectB requires the newer v2.0.0, for example.
+
+So, in our little example above, we’d just need to create a separate virtual environment for both ProjectA and ProjectB and we’d be good to go. Each environment, in turn, would be able to depend on whatever version of ProjectC they choose, independent of the other.
+
+The great thing about this is that there are no limits to the number of environments you can have since they’re just directories containing a few scripts. Plus, they’re easily created using the `venv` command line tool.
+
+### How to make virtual environments of `yt`
+
