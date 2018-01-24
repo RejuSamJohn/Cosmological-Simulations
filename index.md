@@ -14,6 +14,14 @@ The following packages / programs need to be installed on your laptop to be able
 - git
 - yt (3.4.0)
 
+You can accomplish this in Ubuntu by executing:
+`$ sudo apt-get install gcc gcc-c++ gcc-gfortran make patch zip git`
+`$ sudo apt-get install ncurses-devel uuid-devel openssl-devel readline-devel`
+
+And in Fedora 23 and above by executing:
+`$ sudo dnf install gcc gcc-c++ gcc-gfortran make patch zip git`
+`$ sudo dnf install ncurses-devel uuid-devel openssl-devel readline-devel`
+
 For installing `yt`, please use the `install_script.sh` included in this git repository.
 
 Download here 
