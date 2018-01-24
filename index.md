@@ -19,11 +19,17 @@ You can accomplish this in Ubuntu by executing:
 
 `$ sudo apt-get install ncurses-devel uuid-devel openssl-devel readline-devel`
 
-And in Fedora 23 and above by executing:
+And in Fedora 24 and above by executing:
 
 `$ sudo dnf install gcc gcc-c++ gcc-gfortran make patch zip git`
 
 `$ sudo dnf install ncurses-devel uuid-devel openssl-devel readline-devel`
+
+For Fedora 23 and below by executing:
+
+`$ sudo yum install gcc gcc-c++ gcc-gfortran make patch zip git`
+
+`$ sudo yum install ncurses-devel uuid-devel openssl-devel readline-devel`
 
 For installing `yt`, please use the `install_script.sh` included in this git repository.
 
