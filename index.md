@@ -46,7 +46,7 @@ Once you've downloaded it, just run:
 
 where YT_DEST will be the folder created by the install script containing a yt installation (usually yt-conda).
 
-now append (_if you wish to make this Python distribution as the default Python distribution. **We recommend to use a virtual environment, which will be discussed below**_) your ~/.bashrc with: 
+now append (_if you wish to make this Python distribution as the default Python distribution. Otherwise, go to the next section. **We recommend to use a virtual environment, which will be discussed below**_) your ~/.bashrc with: 
 
 `export PATH=/path/to/YT_DEST/bin:$PATH` 
 
