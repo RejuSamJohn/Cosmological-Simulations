@@ -52,11 +52,11 @@ now append (_if you wish to make this Python distribution as the default Python 
 
 `export LD_LIBRARY_PATH=path/to/YT_DEST/lib:$LD_LIBRARY_PATH`
 
-for example, if you installed `yt` to `/home/john/software/yt_3_4/`, the above lines will change to:
+for example, if you installed `yt` to `/home/reju/software/yt_3_4/`, the above lines will change to:
 
-`export PATH=/home/john/software/yt_3_4/yt-conda/bin:$PATH` 
+`export PATH=/home/reju/software/yt_3_4/yt-conda/bin:$PATH` 
 
-`export LD_LIBRARY_PATH=/home/john/software/yt_3_4/yt-conda/lib:$LD_LIBRARY_PATH`
+`export LD_LIBRARY_PATH=/home/reju/software/yt_3_4/yt-conda/lib:$LD_LIBRARY_PATH`
 
 Last but not least, don't forget to source your `bashrc`:
 
@@ -82,12 +82,12 @@ The great thing about this is that there are no limits to the number of environm
 
 **Syntax:**
 
-`alias pythonYT='/home/john/software/yt_3_4/yt-conda/bin/python3.6'`
+`alias pythonYT='/home/reju/software/yt_3_4/yt-conda/bin/python3.6'`
 
-`alias pipYT='/home/john/software/yt_3_4/yt-conda/bin/pip'`
+`alias pipYT='/home/reju/software/yt_3_4/yt-conda/bin/pip'`
 
 
-assuming that the installation path of `yt` is `/home/john/software/yt_3_4/` as discussed above. 
+assuming that the installation path of `yt` is `/home/reju/software/yt_3_4/` as discussed above. 
 
 - Open your `~/.bashrc` with your favourite text editor and append the `~/.bashrc` with above two lines. 
 
