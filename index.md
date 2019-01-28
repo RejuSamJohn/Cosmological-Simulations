@@ -34,7 +34,7 @@ For Fedora 23 and below by executing:
 For installing `yt`, please use the `install_script.sh` included in this git repository.
 
 Download here 
-[install_script.sh](https://simulationasi2018.github.io/Cosmological-Simulations/install_script.sh)
+[install_script.sh](https://rejusamjohn.github.io/Cosmological-Simulations/install_script.sh)
 
 Carefully read the instructions the script prints to your terminal since there might be special instructions for your operating system.
 
